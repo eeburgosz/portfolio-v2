@@ -1,0 +1,34 @@
+.navbar {
+   position: fixed;
+   top: 0;
+   background-color: transparent;
+   width: 100%;
+   height: 80px;
+   padding-left: 50px;
+   font-size: 20px;
+   z-index: 1;
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   background-color: black;
+}
+
+.navbar_logo {
+   height: 80px;
+   height: 80px;
+   color: #9e9e9e;
+   cursor: pointer;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.banner {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.logo {
+   height: 40px;
+}

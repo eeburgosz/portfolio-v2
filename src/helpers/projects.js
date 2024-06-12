@@ -13,7 +13,7 @@ export const info = [
 		description: "Web",
 		deployed: true,
 		active: false,
-		// URL: "https://estudioda.ar/cinema",
+		URL: "https://estudioda.ar/cinema",
 		front_repository:
 			"https://github.com/samuelmhg97/PF-HENRY/tree/main/Client",
 		back_repository: "https://github.com/damiancrue/PF-HENRY-back",

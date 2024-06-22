@@ -25,7 +25,7 @@ export const info = [
 		type: "Individual",
 		description: "Web - Responsive",
 		deployed: true,
-		active: false,
+		active: true,
 		URL: "https://foodapp-eeburgosz.vercel.app/",
 		front_repository: "https://github.com/eeburgosz/front-food",
 		back_repository: "https://github.com/eeburgosz/back-food",

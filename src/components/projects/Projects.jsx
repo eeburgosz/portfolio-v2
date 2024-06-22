@@ -27,24 +27,23 @@ export const Projects = () => {
 											<a href={project.URL} target="_blank" rel="noreferrer">
 												<button
 													className={style.button_content}
-													// disabled={project.active ? false : true}
-													disabled
+													disabled={!project.deployed || !project.active}
 												>
 													<span
-														className={!project.active ? "pi pi-globe" : null}
-														style={{
-															color: project.active ? "red" : "inherit",
-														}}
+														className={
+															project.active && project.deployed
+																? "pi pi-globe"
+																: null
+														}
 													></span>
-													<span
-														style={{
-															color: project.active ? "red" : "inherit",
-														}}
-													>
-														{project.active ? "Updating" : "Deploy"}
+													<span>
+														{project.active && project.deployed
+															? "Deploy"
+															: "Updating"}
 													</span>
 												</button>
 											</a>
+
 											<a
 												href={project.front_repository}
 												target="_blank"
